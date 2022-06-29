@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
-import profile_pic from "../assets/profile_pic.jpg";
+import Profile_pic from "../assets/Profile_pic.jpg";
 
 export default class About extends Component {
   render() {
@@ -11,17 +11,17 @@ export default class About extends Component {
           <div className="centered">
             <img
               className="profile_image"
-              src={profile_pic}
+              src={Profile_pic}
               alt="Profile Pic"
             ></img>
           </div>
         </div>
         <div className="split right">
           <div className="centered">
-            <div className="name_title">Your Name</div>
+            <div className="name_title">Ashley</div>
             <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
+            Hello, my name is Ashley. I am currently a senior Computer Information Systems major
+              at Texas A&M Central Texas. I enjoy walks in the park and reading.
             </div>
           </div>
         </div>
